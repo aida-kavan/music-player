@@ -1,0 +1,123 @@
+
+
+@font-face {
+    font-family: raleway;
+    src: url(/font/static/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: raleway-bold;
+    src: url(./font/static/Raleway-ExtraBold.ttf);
+}
+
+
+.body{
+    background-image:url(/photos/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-family: raleway;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.mainDiv{
+    width: 50%;
+    height: 50%;
+    background-color: rgba(196, 221, 255, 0.712);
+    flex-direction: column;
+    border-radius: 2rem;
+    filter: drop-shadow( 20px 20px 20px rgb(0, 0, 0));
+}
+
+.bottomSection{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(2.200px);
+    gap: 20px;
+}
+
+.covers{
+    width: 200px;
+    height: 200px;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.topSection{
+    height: 10rem;
+    font-family: raleway-bold;
+    font-size: 25px;
+    color: rgb(24, 12, 78);
+}
+
+.iconBox{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .bottomSection{
+        grid-template-columns: repeat(2,200px);
+        margin-bottom: 20px;
+    }
+
+    .mainDiv{
+        width: 70%;
+        height: 85%;
+    }
+}
+
+
+@media screen and (min-width: 1027px) and (max-width: 1381px){
+    .bottomSection{
+        grid-template-columns: repeat(2,180px);
+        margin-bottom: 20px;
+        gap: 30px;
+    }
+    .covers{
+        width: 180px;
+        height: 180px;
+        border-radius: 0.5rem;
+    }
+    .mainDiv{
+        width: 65%;
+        height: 75%;
+    }
+}
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 767px){
+
+    .mainDiv{
+        width: 90%;
+        height: 70%;
+    }
+    .bottomSection{
+        grid-template-columns: repeat(2,140px);
+        margin-bottom: 20px;
+    }
+    .covers{
+        width: 140px;
+        height: 140px;
+        border-radius: 0.5rem;
+    }
+}
+
+
