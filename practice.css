@@ -107,7 +107,7 @@
 
     .mainDiv{
         width: 90%;
-        height: 70%;
+        height: 90%;
     }
     .bottomSection{
         grid-template-columns: repeat(2,140px);
@@ -118,6 +118,10 @@
         height: 140px;
         border-radius: 0.5rem;
     }
+
+    .topSection{
+    margin-bottom: 10px;
+}
 }
 
 
