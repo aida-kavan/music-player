@@ -2,16 +2,16 @@
 
 @font-face {
     font-family: raleway;
-    src: url(/font/static/Raleway-Medium.ttf);
+    src: url(Raleway-Medium.ttf);
 }
 @font-face {
     font-family: raleway-bold;
-    src: url(./font/static/Raleway-ExtraBold.ttf);
+    src: url(/Raleway-ExtraBold.ttf);
 }
 
 
 .body{
-    background-image:url(/photos/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
+    background-image:url(abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg);
     background-size: cover;
     height: 100vh;
     font-family: raleway;
